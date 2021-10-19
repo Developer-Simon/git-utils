@@ -1,0 +1,25 @@
+{
+  "name": "PROJECT_NAME",
+  "version": "0.0.1",
+  "description": "PROJECT_DESCRIPTION",
+  "author": "Developer-Simon",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/USER/REPO_NAME"
+  },
+  "keywords": [],
+  "license": "/",
+  "bugs": {
+    "url": "https://github.com/USER/REPO_NAME/issues"
+  },
+  "homepage": "https://github.com/USER",
+  "dependencies": {},
+  "standard-version": {
+    "scripts": {
+      "postbump": "node update-readme.js",
+      "postchangelog": "git commit README.md -m \"dev: increased version in README.md\""
+    }
+  }
+}
+
+    
